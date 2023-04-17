@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
-const Title = styled.h1`
-  color: red;
+type TitleProps = {
+  colorTitle?: string;
+};
+
+const Title = styled.h1<TitleProps>`
+  color: ${({ colorTitle }) => colorTitle || 'red'};
 `;
 
 export { Title };

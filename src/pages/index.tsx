@@ -1,5 +1,10 @@
-import { Header } from '@/components';
+import { Header, Calc } from '@/components';
 
 export default function Home() {
-  return <Header>Salve seres humanos</Header>;
+  return (
+    <div>
+      <Header>Salve seres humanos</Header>
+      <Calc />
+    </div>
+  );
 }
