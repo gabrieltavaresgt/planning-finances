@@ -36,7 +36,6 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta name="description" content="Teste" />
-          <title>Home</title>
         </Head>
         <body>
           <Main />
